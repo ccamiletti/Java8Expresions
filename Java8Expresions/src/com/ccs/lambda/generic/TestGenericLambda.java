@@ -11,7 +11,6 @@ public class TestGenericLambda {
 			
 		};
 		
-		
 		GenericLambda<Integer> genInt = (in) -> {
 			System.out.println("i am going to sum 1 to you param: param value = " + in + ". result= "); 
 			return 1 + in;
@@ -19,9 +18,6 @@ public class TestGenericLambda {
 		
 		System.out.println(genString.compute("carlo"));
 		System.out.println(genInt.compute(234));
-		
-		
-
 	}
 
 }
